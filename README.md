@@ -60,15 +60,7 @@ streamlit run soundscape.py
 语音转译：上传一个音频文件，点击“转译音频”按钮。
 音频合并：上传两段音频文件，点击“合并音频”按钮。
 查看和播放处理后的音频文件。
-文件结构
-bash
-复制代码
-project-directory/
-├── translation.py                 # Flask后端1（语音转译）
-├── merge.py                 # Flask后端2（音频合并）
-├── soundscape.py             # Streamlit前端
-├── requirements.txt        # Python依赖项
-└── README.md               # 项目说明文件
+
 依赖项
 Flask
 Streamlit
